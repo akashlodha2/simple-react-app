@@ -15,7 +15,7 @@ class Counter extends Component {
 
   formatCountColor() {
     let classes = "badge m-2 badge-";
-    classes += this.props.counter.value === 0 ? "warning" : "warning";
+    classes += this.props.counter.value === 0 ? "warning" : "primary";
     return classes;
   }
 
